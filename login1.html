@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>login1 </title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <style >
+    
+  body {
+      font-family: Roboto;
+        background: #660033;
+      background: -webkit-linear-gradient(to left, #660033, #1F1C18);
+      background: linear-gradient(to left, #660033, #1F1C18);
+         }
+  </style>
+</head>
+<body>
+  <div  class="container vh-100">
+    <div class="row justify-content-center h-100">
+      <div  class="card w-25 my-auto shadow">
+        <div style="background-color:#99004c; color:white;"class="panel-heading text-center">
+            <h1 >Login Form </h1>
+          </div>
+        <div class="card-body">
+          <form action="http://localhost//php/Project/login1.php" method="POST">
+            <div class="form-group">
+              <label for="Name">NAME</label>
+              <input type="text" id="name" class="form-control" name="Name" />
+            </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input type="password" id="password" class="form-control" name="password" />
+            </div>
+            <input style="background-color:#99004c;" type="submit" class="btn btn-primary w-100" >
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
